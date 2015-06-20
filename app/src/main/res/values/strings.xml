@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bar Safety</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="timeOkayButton">Okay</string>
+    <string name="chooseNumberMinutes">Choose # of minutes:</string>
+    <string name="timeLeftHere">Time Remaining:</string>
+    <string name="countdownTime">Time here</string>
+    <string name="fineButton">I am fine.</string>
+    <string name="statusConfirmText">Time to confirm status:</string>
+    <string name="statusConfirmTime">Time Here</string>
+    <string name="verifyStuff"><![CDATA[Verify soberness & humanity:]]></string>
+    <string name="mathQuestion">What is (2 + 15) - 8?</string>
+    <string name="numberHere">#</string>
+    <string name="numberInputted">Number Inputted</string>
+    <string name="chooseContacts">Choose Contacts</string>
+    <string name="contactChooseOne">1st Contact</string>
+    <string name="contactChooseTwo">2nd Contact</string>
+    <string name="contactChooseThree">3rd Contact</string>
+    <color name="blue">#800000</color>
+    <color name="nigga">#ffffff</color>
+    <color name='white'>#000000</color>
+    <string-array name="times_array">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+    </string-array>
+</resources>

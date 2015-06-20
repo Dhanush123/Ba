@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/verifyStuff"
+        android:id="@+id/verifyStuff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:textColor="@color/nigga"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/mathQuestion"
+        android:id="@+id/mathQuestion"
+        android:layout_marginTop="64dp"
+        android:layout_below="@+id/verifyStuff"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/nigga"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/numberHere"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/numberHere"
+        android:textColor="@color/nigga"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numberInputted"
+        android:id="@+id/numberInputted"
+        android:layout_below="@+id/numberHere"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:onClick="numberInputted"
+        android:textColor="@color/nigga"
+        />
+
+</RelativeLayout>

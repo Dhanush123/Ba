@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/chooseContacts"
+        android:id="@+id/chooseContacts"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:textColor="@color/nigga"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contactChooseOne"
+        android:id="@+id/contactChooseOne"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/chooseContacts"
+        android:layout_centerHorizontal="true"
+        android:onClick="firstContactSelected"
+        android:textColor="@color/nigga"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contactChooseTwo"
+        android:id="@+id/contactChooseTwo"
+        android:layout_below="@+id/contactChooseOne"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:onClick="secondContactSelected"
+        android:textColor="@color/nigga"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contactChooseThree"
+        android:id="@+id/contactChooseThree"
+        android:layout_below="@+id/contactChooseTwo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:onClick="thirdContactSelected"
+        android:textColor="@color/nigga"/>
+</RelativeLayout>

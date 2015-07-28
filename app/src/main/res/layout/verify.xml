@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@color/blue">
+    android:background="@color/white"
+    android:id="@+id/verify">
 
     <TextView
         android:layout_width="wrap_content"
@@ -9,21 +10,10 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/verifyStuff"
         android:id="@+id/verifyStuff"
+        android:layout_marginTop="97dp"
+        android:textColor="@color/black"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="61dp"
-        android:textColor="@color/nigga"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/mathQuestion"
-        android:id="@+id/mathQuestion"
-        android:layout_marginTop="64dp"
-        android:layout_below="@+id/verifyStuff"
-        android:layout_centerHorizontal="true"
-        android:textColor="@color/nigga"/>
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -31,21 +21,56 @@
         android:inputType="number"
         android:ems="10"
         android:id="@+id/numberHere"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
         android:text="@string/numberHere"
-        android:textColor="@color/nigga"/>
+        android:textColor="@color/black"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/mathEquation"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/numberInputted"
         android:id="@+id/numberInputted"
+        android:layout_marginTop="39dp"
+        android:onClick="numberInputted"
+        android:textColor="@color/black"
         android:layout_below="@+id/numberHere"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="59dp"
-        android:onClick="numberInputted"
-        android:textColor="@color/nigga"
-        />
+        android:background="@color/primaryColor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/mathEquation"
+        android:id="@+id/mathEquation"
+        android:textColor="@color/black"
+        android:layout_below="@+id/verifyStuff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/timeleft2"
+        android:id="@+id/timeleft2"
+        android:layout_marginTop="33dp"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/verifyStuff"
+        android:layout_alignStart="@+id/verifyStuff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/countdownTime2"
+        android:id="@+id/countdownTime2"
+        android:textColor="@color/black"
+        android:layout_alignTop="@+id/timeleft2"
+        android:layout_toRightOf="@+id/timeleft2"
+        android:layout_toEndOf="@+id/timeleft2" />
 
 </RelativeLayout>

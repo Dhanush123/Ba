@@ -1,7 +1,6 @@
 package com.x10host.dhanushpatel.barsafety;
 
 import android.app.ActivityManager;
-import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -99,5 +98,4 @@ public class Countdown extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
 }
